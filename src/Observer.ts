@@ -7,7 +7,6 @@ class EventEmitter {
 
     private _list: Observer[] = [];
     constructor() {
-
     }
     add(o: Observer) {
         this._list.push(o);
