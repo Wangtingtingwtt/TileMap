@@ -1,7 +1,7 @@
 
 class TileMap extends egret.DisplayObjectContainer {
 
-    public static TILE_SIZE: number = 64;
+    public static TILE_SIZE: number =108;
 
     _player: Player;
     _block: egret.Bitmap;
