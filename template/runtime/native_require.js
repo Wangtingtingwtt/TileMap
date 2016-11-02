@@ -1,7 +1,6 @@
 
 var game_file_list = [
-    //以下为自动修改，请勿修改
-    //----auto game_file_list start----
+    
 	"libs/modules/egret/egret.js",
 	"libs/modules/egret/egret.native.js",
 	"libs/modules/game/game.js",
@@ -32,7 +31,7 @@ egret_native.requireFiles = function () {
 egret_native.egretInit = function () {
     egret_native.requireFiles();
     egret.TextField.default_fontFamily = "/system/fonts/DroidSansFallback.ttf";
-    //egret.dom为空实现
+    
     egret.dom = {};
     egret.dom.drawAsCanvas = function () {
     };
@@ -40,8 +39,8 @@ egret_native.egretInit = function () {
 
 egret_native.egretStart = function () {
     var option = {
-        //以下为自动修改，请勿修改
-        //----auto option start----
+        
+
 		entryClassName: "Main",
 		frameRate: 30,
 		scaleMode: "showAll",
